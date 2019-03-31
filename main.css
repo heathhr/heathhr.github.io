@@ -1,0 +1,248 @@
+
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    display: inline;
+}
+
+
+br {
+    clear 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+    display: inline;
+    text-overflow: clip;
+}
+
+#circleStuff {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+    display: inline;
+    text-overflow: clip;
+    font-size: 15px;
+    width: 100%;
+}
+
+#circleStuff p {
+    display: inline-block;
+    margin-left: 75px;
+}
+img {
+    display: inline;
+    margin: 10px;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #E79024;
+    font-family: "Gill Sans", "Gill Sans MT";
+    font-size: 25px;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background-color: #92140C;
+}
+
+#header {
+    width: 100%;
+    display: block;
+}
+
+#header img {
+    width: 50%;
+    display: inline-block;
+}
+
+#header h2 {
+    width: 20%;
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT";
+    font-size: 45px;
+}
+
+
+div img{
+    float: left
+}
+
+div img.logo{
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+
+div img.post {
+    width: 450px;
+}
+#UGC{
+    width: 100%;
+    height: 600px;
+}
+
+#socialmedia {
+    display:inline;
+}
+
+div h2.socialMedia {
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT";
+    font-size: 24px;
+    margin: 0px 20px 0px 20px;
+
+}
+div h2.socialMedia a:hover{background-color: silver;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #92140C;
+    display: inline;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-around;
+    display: inline;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0px 0px 20px 100px;
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(4, 100px);
+    align-content: space-around;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.box {
+    background-color: #F3BB19;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 60%;
+    font;
+    text-align: center;
+    diplay: inline;
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.box2 {
+    background-color: #92140C;
+    color: #fff;
+    border-radius: 85%;
+    padding: 20px;
+    font-size: 50%;
+    font;
+    width: 150px;
+    height: 20px;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+.box3{
+    background-color: #86A33D;
+    float: left;
+    display:inline;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: solid black;
+}
+.box4{
+    background-color: #F3BB19;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 60%;
+    font;
+    text-align: center;
+    diplay: inline;
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.box5{ 
+     background-color: #92140C;
+    color: #fff;
+    border-radius: 85%;
+    padding: 20px;
+    font-size: 50%;
+    font;
+    width: 150px;
+    height: 20px;
+    margin-left: 850px;
+    margin-top: 20px;
+}
+#taco{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+#shoplist{
+    
+}
+.circle:before {
+    content: ' \25CF';
+    font-size: 80px;
+    color: #86A33D;
+    border-color: black;
+    display: inline;
+}
+
+.circle2:before {
+    content: ' \25CF';
+    font-size: 80px;
+    color: #92140C;
+    border-color: black;
+    display: inline;
+}
