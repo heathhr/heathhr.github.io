@@ -1,0 +1,66 @@
+div {
+    background-color:darkseagreen;
+    width: 78.3%;
+}
+img {
+   width: 972px;
+    height: 135px;
+}
+div.videos div img {
+    width: 50px;
+    height: 50px;
+    margin: 0 100px;
+}
+div.videos div {
+    float: left;
+    width: 250px;
+}
+h1.fancyText {
+    font-family: "Lobster";
+    text-align: center;
+}
+div.videos {
+    width: 78.3%;
+    height: 345px;
+}
+.clearFloat {
+    float: none;
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.recipes div img {
+    width: 800px;
+    height: 670px;
+    margin: 0 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h2.fancyText {
+    font-family: "Lobster";
+    text-align: center;
+    font-size: 32px;
+}
+.videos img {
+    border: 2px solid black;
+}
+.videos div {
+    border: 2px solid black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+}
